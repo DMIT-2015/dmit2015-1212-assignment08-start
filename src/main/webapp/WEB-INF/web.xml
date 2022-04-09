@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    
+    <welcome-file-list>
+        <welcome-file>index.xhtml</welcome-file>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <!-- TODO: Configure all URLs of the application that the data be transmitted in a fashion that prevents other entities from observing the contents of the transmission -->
+
+
+    <!-- TODO: Add a security constraint for Finance role -->
+
+
+    <!-- TODO: Add a security constraint for the Accounting role -->
+
+
+    <!-- TODO: Add a security constraint for the roles Accounting Finance, Executive -->
+
+
+    <!-- TODO: Add security role names supported by this application -->
+
+
+    <!-- TODO: Add custom error pages for error codes 401, 403, 404, 500 -->
+
+</web-app>
