@@ -60,8 +60,6 @@ public class BillPaymentCreateController implements Serializable {
             _billpaymentRepository.create(newBillPayment);
             Messages.addFlashGlobalInfo("Create was successful.");
             nextPage = "/bills/index?faces-redirect=true";
-        } catch (RuntimeException e) {
-            Messages.addGlobalWarn(e.getMessage());
         } catch (Exception e) {
             e.printStackTrace();
             Messages.addGlobalError("Create was not successful. {0}", e.getMessage());
