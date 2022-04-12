@@ -59,7 +59,9 @@
 
     If the caller is not in the role *Finance* or *Accounting* or *Executive* then return a empty list.
 
-1. Using a CDI Interceptor restrict access to the methods `create()` and `update()` to the role *Finance* in `BillRepository.java` and `BillPaymentRepository.java`.
+1. Using a CDI Interceptor restrict access to the methods `create()` and `update()` to the role *Finance* in `BillRepository.java`.
+
+1. Using a CDI Interceptor restrict access to the methods `create()` and `update()` to the role *Accounting* in `BillPaymentRepository.java`.
 
 1. Using a CDI Interceptor restrict access to the methods `remove()` and `delete()` to the role *Accounting* in `BillRepository.java` and `BillPaymentRepository.java`.
 
